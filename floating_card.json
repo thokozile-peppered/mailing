@@ -3,13 +3,14 @@
 		"font_family": "arial",
 		"font_size": 14,
 		"background": "#E9E7DA url(/images/email/teal.png) repeat-x center top",
+		"inner_border": "none",
+		"inner_padding": 0,
 		"color": "#000000",
 		"header": {
 			"padding": 0,
 			"image": {
-				"width": 291,
-				"height": 57,
-				"margin": "56px"
+				"width": 700,
+				"height": 169
 			},
 			"preamble": {
 				"width": "100%",
@@ -196,7 +197,7 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron-right": {
+			"chevron_right": {
 				"color": "#FFFFFF",
 				"background": "transparent"
 			}
@@ -368,17 +369,17 @@
 		"socials": [{
 				"type": "facebook",
 				"url": "#",
-				"icon": "/platform/images/mail/social_black/facebook.png"
+				"icon": "/platform/images/social/16/facebook.png"
 			},
 			{
 				"type": "instagram",
 				"url": "#",
-				"icon": "/platform/images/mail/social_black/instagram.png"
+				"icon": "/platform/images/social/16/instagram.png"
 			},
 			{
 				"type": "youtube",
 				"url": "#",
-				"icon": "/platform/images/mail/social_black/youtube.png"
+				"icon": "/platform/images/social/16/youtube.png"
 			}
 		]
 	}

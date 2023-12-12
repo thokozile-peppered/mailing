@@ -4,20 +4,22 @@
 		"font_size": 14,
 		"color": "#000000",
 		"parts_background": "#E9E7DA",
+		"inner_border": "none",
+		"inner_padding": 0,
 		"header": {
+			"background": "#E9E7DA",
 			"padding": 0,
 			"image": {
-				"width": 291,
-				"height": 57,
-				"margin": "56px"
+				"width": 700,
+				"height": 169
 			},
 			"preamble": {
 				"width": "100%",
 				"padding": 16,
 				"text_align": "center",
 				"font_size": 12,
-				"color": "#FFFFFF",
-				"link_color": "#000000",
+				"color": "#E9E7DA",
+				"link_color": "#E9E7DA",
 				"link_text_decoration": "underline",
 				"background": "#000000"
 
@@ -52,7 +54,7 @@
 				"padding": "0 0 5px",
 				"font_size": 28,
 				"margin_bottom": 0,
-				"color": "#FFFFFF",
+				"color": "#E9E7DA",
 				"text_align": "start",
 				"text_transform": "uppercase"
 			},
@@ -60,14 +62,14 @@
 				"padding": "0 0 5px",
 				"font_size": 16,
 				"font_weight": "bold",
-				"color": "#FFFFFF",
+				"color": "#E9E7DA",
 				"text_align": "start"
 			},
 			"description": {
 				"padding": "10px 0",
 				"text_align": "start",
 				"font_size": 16,
-				"color": "#FFFFFF",
+				"color": "#E9E7DA",
 				"line_height": "24px",
 				"font_family": "arial"
 
@@ -133,6 +135,7 @@
 				"text_align": "start",
 				"font_size": 16,
 				"line_height": "24px",
+				"color": "#000000",
 				"font_family": "arial",
 				"padding": "10px 0"
 

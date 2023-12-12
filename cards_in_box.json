@@ -4,21 +4,23 @@
 		"font_size": 14,
 		"color": "#000000",
 		"inner_background": "#457E80",
+		"inner_border": "none",
+		"inner_padding": 0,
 		"parts_background": "#E9E7DA",
 		"header": {
+			"background": "#E9E7DA",
 			"padding": 0,
 			"image": {
-				"width": 291,
-				"height": 57,
-				"margin": "56px"
+				"width": 700,
+				"height": 169
 			},
 			"preamble": {
 				"width": "100%",
 				"padding": 16,
 				"text_align": "center",
 				"font_size": 12,
-				"color": "#FFFFFF",
-				"link_color": "#000000",
+				"color": "#E9E7DA",
+				"link_color": "#E9E7DA",
 				"link_text_decoration": "underline",
 				"background": "#457E80"
 
