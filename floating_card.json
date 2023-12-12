@@ -17,7 +17,7 @@
 				"text_align": "center",
 				"font_size": 12,
 				"color": "#FFFFFF",
-				"link_color": "#000000",
+				"link_color": "#FFFFFF",
 				"link_text_decoration": "underline",
 				"background": "#457E80"
 
@@ -334,8 +334,9 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"button": {
-				"margin": "12px 0 0 auto"
+			"chevron_right": {
+				"color": "#FFFFFF",
+				"background": "transparent"
 			}
 
 		},
