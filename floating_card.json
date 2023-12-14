@@ -197,9 +197,8 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron_right": {
-				"color": "#FFFFFF",
-				"background": "transparent"
+			"button": {
+				"margin": "12px 0 0 auto"
 			}
 
 		},
@@ -335,9 +334,8 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron_right": {
-				"color": "#FFFFFF",
-				"background": "transparent"
+			"button": {
+				"margin": "12px 0 0 auto"
 			}
 
 		},

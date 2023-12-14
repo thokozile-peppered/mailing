@@ -198,9 +198,8 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron-right": {
-				"color": "#FFFFFF",
-				"background": "transparent"
+			"button": {
+				"margin": "12px 0 0 auto"
 			}
 
 		},
