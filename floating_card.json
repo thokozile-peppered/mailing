@@ -28,7 +28,7 @@
 			"box": {
 				"border": "none",
 				"border_radius": 0,
-				"padding": 0
+				"padding": 24
 			},
 			"card": {
 				"layout": "image_on_top",
@@ -85,7 +85,7 @@
 			"box": {
 				"border": "none",
 				"border_radius": 0,
-				"padding": 0
+				"padding": 24
 			},
 			"card": {
 				"layout": "image_on_top",
@@ -149,7 +149,7 @@
 				"layout": "list",
 				"background": "#E9E7DA",
 				"border_radius": 0,
-				"padding": "0"
+				"padding": 24
 			},
 
 			"card": {
@@ -197,7 +197,7 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"button": {
+			"chevron": {
 				"margin": "12px 0 0 auto"
 			}
 
@@ -296,7 +296,7 @@
 			"box": {
 				"border_radius": 0,
 				"background": "#E9E7DA",
-				"padding": "1px 0"
+				"padding": 24
 			},
 
 			"card": {
@@ -334,7 +334,7 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"button": {
+			"chevron": {
 				"margin": "12px 0 0 auto"
 			}
 
