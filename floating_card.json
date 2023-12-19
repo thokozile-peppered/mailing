@@ -25,7 +25,7 @@
 
 			}
 		},
-		"part": {
+		"part.v4_default": {
 			"box": {
 				"border": "none",
 				"border_radius": 0,

@@ -26,7 +26,7 @@
 
 			}
 		},
-		"part": {
+		"part.v4_default": {
 			"box": {
 				"border": "none",
 				"border_radius": 0,
@@ -86,14 +86,12 @@
 		},
 		"part.v4_image_top": {
 			"box": {
-				"border": "none",
-				"border_radius": 0,
+				"border_radius": 10,
 				"padding": 24
 			},
 			"card": {
 				"layout": "image_on_top",
 				"background": "#FFFFFF",
-				"border": "none",
 				"border_radius": 10,
 				"padding": "0px"
 			},
@@ -198,7 +196,7 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"button": {
+			"chevron": {
 				"margin": "12px 0 0 auto"
 			}
 
@@ -206,7 +204,7 @@
 		"part.v4_default_story": {
 			"fields": "title description button",
 			"box": {
-				"border_radius": 0,
+				"border_radius": 10,
 				"padding": 24
 			},
 			"card": {
@@ -300,7 +298,7 @@
 				"margin": 0
 			}
 		},
-		"part.v4_list_no-Image": {
+		"part.v4_list_no-image": {
 			"layout": "list",
 			"box": {
 				"border_radius": 0,
@@ -342,7 +340,7 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"button": {
+			"chevron": {
 				"margin": "12px 0 0 auto"
 			}
 
