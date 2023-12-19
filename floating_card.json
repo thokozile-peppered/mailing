@@ -3,6 +3,7 @@
 		"font_family": "arial",
 		"font_size": 14,
 		"background": "#E9E7DA url(/images/email/teal.png) repeat-x center top",
+		"inner_background": "#E9E7DA",
 		"inner_border": "none",
 		"inner_padding": 0,
 		"color": "#000000",
@@ -144,12 +145,11 @@
 			}
 		},
 		"part.v4_list": {
-			"padding": "6px 24px",
 			"box": {
 				"layout": "list",
 				"background": "#E9E7DA",
 				"border_radius": 0,
-				"padding": 24
+				"padding": "0 24px"
 			},
 
 			"card": {
@@ -206,7 +206,6 @@
 			"fields": "title description button",
 			"box": {
 				"border_radius": 0,
-				"background": "#FFFFFF",
 				"padding": 24
 			},
 			"desc": {
@@ -246,7 +245,7 @@
 			"hr_color": "#FF8778",
 			"box": {
 				"border_radius": 0,
-				"background": "#FF8778",
+				"background": "#E9E7DA",
 				"padding": 24
 			},
 			"card": {
@@ -257,7 +256,7 @@
 				"padding": "32px 32px 16px"
 			},
 			"header": {
-				"padding": "56px 24px",
+				"padding": 24,
 				"date": {
 					"font_size": 18,
 					"text_align": "start",
@@ -291,7 +290,7 @@
 				"margin": 0
 			}
 		},
-		"part.v4_list_no-Image": {
+		"part.v4_list_no-image": {
 			"layout": "list",
 			"box": {
 				"border_radius": 0,
@@ -343,8 +342,7 @@
 			"box": {
 				"layout": "one_column",
 				"border_radius": 0,
-				"background": "#FFFFFF",
-				"padding": 0
+				"padding": 24
 			},
 			"desc": {
 				"margin_bottom": 0,
