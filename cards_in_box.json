@@ -1,5 +1,6 @@
 {
 	"V4": {
+		"padding": 24,
 		"font_family": "arial",
 		"font_size": 14,
 		"color": "#000000",
@@ -25,11 +26,10 @@
 				"background": "#457E80"
 			}
 		},
-		"part.v4_default": {
+		"part": {
 			"box": {
 				"border": "none",
-				"border_radius": 0,
-				"padding": 24
+				"border_radius": 0
 			},
 			"card": {
 				"layout": "image_on_top",
@@ -80,75 +80,25 @@
 				"max_width": 131
 			}
 		},
+		"part.v4_default": {
+			"card": {
+				"layout": "image_on_top",
+				"padding": "0px",
+				"background": "#FFFFFF"
+			}
+		},
 		"part.v4_image_top": {
-			"box": {
-				"border_radius": 10,
-				"padding": 24
-			},
 			"card": {
 				"layout": "image_on_top",
 				"background": "#FFFFFF",
-				"border_radius": 10,
 				"padding": "0px"
-			},
-			"image": {
-				"border_radius": 0,
-				"width": 652,
-				"height": 366.75
-			},
-			"desc": {
-				"weight": 700,
-				"padding": "32px"
-			},
-			"date": {
-				"margin_bottom": 4,
-				"font_size": 20,
-				"font_family": "arial",
-				"text_align": "center"
-			},
-			"title": {
-				"font_size": 28,
-				"margin_bottom": 0,
-				"color": "#000000",
-				"text_align": "center",
-				"text_transform": "uppercase",
-				"padding": "0px 0px 5px 0px"
-			},
-			"subtitle": {
-				"font_size": 16,
-				"font_weight": "bold",
-				"color": "#000000",
-				"text_align": "center",
-				"padding": "0px 0px 5px 0px"
-			},
-			"description": {
-				"text_align": "center",
-				"font_size": 16,
-				"line_height": "24px",
-				"font_family": "arial",
-				"padding": "10px 0"
-			},
-			"button": {
-				"border_radius": 0,
-				"background": "#DCF000",
-				"color": "#000000",
-				"font_size": 16,
-				"font_weight": "bold",
-				"text_transform": "uppercase",
-				"padding": "10px 20px",
-				"max_width": 131
 			}
 		},
 		"part.v4_list": {
-			"box": {
-				"layout": "list",
-				"border_top_left_radius": 10,
-				"padding": "0 24px 0"
-			},
+			"padding": "0 24px 0",
 			"card": {
 				"layout": "horizontal",
 				"background": "#FF8778",
-				"border_radius": 0,
 				"padding": "16px 32px"
 			},
 			"image": {
@@ -160,22 +110,18 @@
 				"small": 16
 			},
 			"desc": {
-				"weight": 700,
 				"padding": "20px 0"
 			},
 			"date": {
 				"margin_bottom": 4,
 				"font_size": 18,
-				"font_family": "arial",
 				"color": "#FFFFFF",
 				"text_align": "start",
-				"line_height": "25px",
 				"padding": "0 10px"
 			},
 			"title": {
 				"font_size": 20,
 				"color": "#FFFFFF",
-				"text_transform": "uppercase",
 				"text_align": "start"
 			},
 			"subtitle": {
@@ -187,66 +133,35 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron": {
-				"margin": "12px 0 0 auto"
+			"button": {
+				"chevron": "/images/email/chevron_white.png"
 			}
 		},
 		"part.v4_default_story": {
 			"fields": "title description button",
-			"box": {
-				"border_radius": 10,
-				"padding": 24
-			},
 			"card": {
 				"padding": "0px",
-				"background": "#FFFFFF",
-				"border": "none",
-				"border_radius": 10
+				"background": "#FFFFFF"
 			},
 			"desc": {
 				"margin_bottom": 0,
 				"padding": "32px"
 			},
-			"title": {
-				"font_size": 28,
-				"margin_bottom": 0,
-				"color": "#000000",
-				"text_align": "center",
-				"text_transform": "uppercase",
-				"padding": "0 0 5px"
-			},
 			"description": {
-				"text_align": "center",
-				"font_size": 16,
 				"color": "#000000",
-				"line_height": "24px",
-				"font_family": "arial",
 				"padding": "10px 0"
 			},
 			"button": {
-				"border_radius": 0,
-				"background": "#DCF000",
-				"color": "#000000",
-				"font_size": 16,
-				"font_weight": "bold",
 				"padding": "10px 0",
-				"text_transform": "uppercase",
 				"max_width": 588
 			}
 		},
 		"part.v4_two_col": {
 			"layout": "two_columns",
-			"font_family": "arial",
 			"hr_color": "#FF8778",
-			"box": {
-				"border_radius": 0,
-				"padding": 24
-			},
 			"card": {
 				"layout": "image_on_bottom",
 				"background": "#E9E7DA",
-				"border": "none",
-				"border_radius": 10,
 				"padding": "32px 32px 16px"
 			},
 			"desc": {
@@ -274,24 +189,16 @@
 				"height": 159
 			},
 			"button": {
-				"background": "#DCF000",
 				"padding": "10px 20px",
 				"max_width": 282,
-				"text_transform": "uppercase",
 				"margin": 0
 			}
 		},
 		"part.v4_list_no-image": {
 			"layout": "list",
-			"box": {
-				"border_radius": 0,
-				"padding": "0 24px 0"
-			},
 			"card": {
-				"layout": "horizontal",
 				"background": "#FF8778",
 				"border": "none",
-				"border_radius": 0,
 				"padding": "16px 32px"
 			},
 			"desc": {
@@ -303,13 +210,11 @@
 				"font_size": 18,
 				"font_family": "arial",
 				"color": "#FFFFFF",
-				"text_align": "start",
-				"line_height": "25.2px"
+				"text_align": "start"
 			},
 			"title": {
 				"font_size": 20,
 				"color": "#FFFFFF",
-				"text_transform": "uppercase",
 				"text_align": "start"
 			},
 			"subtitle": {
@@ -321,19 +226,13 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron": {
-				"margin": "12px 0 0 auto"
+			"button": {
+				"chevron": "/images/email/chevron_white.png"
 			}
 		},
 		"part.v4_banner-image": {
-			"box": {
-				"border_radius": 0,
-				"padding": 24
-			},
 			"card": {
 				"background": "#FFFFFF",
-				"border": "none",
-				"border_radius": 10,
 				"padding": "0px"
 			},
 			"desc": {

@@ -167,8 +167,6 @@
 			"card": {
 				"layout": "image_on_bottom",
 				"background": "#FF8778",
-				"border": "none",
-				"border_radius": 0,
 				"padding": "32px 32px 16px"
 			},
 			"date": {
