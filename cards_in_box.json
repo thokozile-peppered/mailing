@@ -96,6 +96,7 @@
 		},
 		"part.v4_list": {
 			"padding": "0 24px 0",
+			"fields": "date title subtitle image location chevron",
 			"card": {
 				"layout": "horizontal",
 				"background": "#FF8778",
@@ -196,6 +197,7 @@
 		},
 		"part.v4_list_no-image": {
 			"layout": "list",
+			"fields": "date title subtitle location chevron",
 			"card": {
 				"background": "#FF8778",
 				"border": "none",

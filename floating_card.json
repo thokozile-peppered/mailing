@@ -108,6 +108,7 @@
 		},
 		"part.v4_list": {
 			"layout": "horizontal",
+			"fields": "date title subtitle image location chevron",
 			"background": "#E9E7DA",
 			"card": {
 				"layout": "horizontal",
@@ -148,9 +149,9 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron": {
-				"margin": "12px 0 0 auto"
-			}
+			"button": {
+                "chevron": "/images/email/chevron.png"
+            }
 		},
 		"part.v4_default_story": {
 			"fields": "title description button",
@@ -197,6 +198,7 @@
 		},
 		"part.v4_list_no-image": {
 			"layout": "list",
+			"fields": "date title subtitle location chevron",
 			"background": "#E9E7DA",
 			"card": {
 				"background": "#457E80",
@@ -228,9 +230,9 @@
 				"color": "#FFFFFF",
 				"text_align": "start"
 			},
-			"chevron": {
-				"margin": "12px 0 0 auto"
-			}
+			"button": {
+                "chevron": "/images/email/chevron.png"
+            }
 		},
 		"part.v4_banner-image": {
 			"layout": "one_column",

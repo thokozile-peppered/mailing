@@ -113,6 +113,7 @@
 			}
 		},
 		"part.v4_list": {
+			"fields": "date title subtitle image location chevron",
 			"box": {
 				"background": "#457E80"
 			},
@@ -226,6 +227,7 @@
 			}
 		},
 		"part.v4_list_no-image": {
+			"fields": "date title subtitle location chevron",
 			"layout": "list",
 			"box": {
 				"background": "#457E80"
