@@ -401,7 +401,7 @@
 				"color": "#000000"
 			},
 			"button": {
-				"chevron": "/images/standard/mail/chevron.png"
+				"chevron": "/images/email/chevron_purple.png"
 			},
 			"image": {
 				"height": 175,
@@ -434,6 +434,9 @@
 				"background": "#999999",
 				"color": "#ffffff"
 			},
+			"button": {
+				"chevron": "/images/email/chevron_white.png"
+			},
 			"title": {
 				"color": "#ffffff"
 			},
@@ -448,7 +451,7 @@
 
 		"part.compact_darkgrey": {
 			"layout": "list",
-			"fields": "date title subtitle location chevron",
+			"fields": "date title subtitle chevron",
 			"box": {
 				"background": "#333333",
 				"color": "#ffffff"
@@ -457,6 +460,9 @@
 				"border_radius": 1,
 				"background": "#333333",
 				"color": "#ffffff"
+			},
+			"button": {
+				"chevron": "/images/email/chevron_white.png"
 			},
 			"title": {
 				"color": "#ffffff"
@@ -481,6 +487,9 @@
 				"border_radius": 1,
 				"background": "#FFFFFF",
 				"color": "#000000"
+			},
+			"button": {
+				"chevron": "/images/email/chevron_purple.png"
 			},
 			"title": {
 				"color": "#000000"
